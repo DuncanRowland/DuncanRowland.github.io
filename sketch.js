@@ -74,6 +74,3 @@ function draw() {
     drawLeaves(frameCount-maxticks);
   }
 }
-
-    Status API Training Shop Blog About 
-
