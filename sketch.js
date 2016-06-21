@@ -52,7 +52,7 @@ function drawBranches(tick) {
 function drawLeaves(tick) {
   fill(color(50,200,50));
   for (var i=0; i<branches.length; i++) {
-    b=branches[i];
+    var b=branches[i];
     if(b.e.y<475) {
       b.e.x=b.e.x+3*(Math.random()-0.5);
       b.e.y=b.e.y+3*(Math.random()-0.5)+2;
