@@ -1,7 +1,7 @@
 //(C) Duncan Rowland 9/June/2016 drowland@lincoln.ac.uk
 
 var maxticks=160; //How long to keep going for? (160 frames)
-var bifurate=30; //How often to split the branch (every 20 frames)
+var bifurate=10; //How often to split the branch (every 20 frames)
 var branches=[]; //Just start with one 'branch' (i.e. the trunk)
 branches.push({s:{x:320, y:480}, e:{x:320, y:400}}); //Trunk {s:start,e:end}
 var bgimg;
